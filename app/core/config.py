@@ -29,6 +29,11 @@ CHROMA_DB_PATH = BASE_DIR / os.getenv(
 # ==========================
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
+if not GROQ_API_KEY:
+    raise ValueError(
+        "GROQ_API_KEY environment variable is not set."
+    )
+
 MODEL_NAME = os.getenv(
     "MODEL_NAME",
     "llama-3.3-70b-versatile"
@@ -52,5 +57,3 @@ CHUNK_OVERLAP = 150
 # Retrieval
 # ==========================
 TOP_K = 4
-
-SIMILARITY_THRESHOLD = 0.45
