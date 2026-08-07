@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  backend:
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - CHROMA_DB_PATH=/app/chroma_db
+      - DOCUMENTS_PATH=/app/documents
+    volumes:
+      - ./:/app
+
+  frontend:
+    build: .
+    command: streamlit run ui/streamlit.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - API_BASE_URL=http://backend:8000
+    volumes:
+      - ./:/app
+    depends_on:
+      - backend
+
+  ingest:
+    build: .
+    command: python -m scripts.ingest
+    env_file:
+      - .env
+    environment:
+      - CHROMA_DB_PATH=/app/chroma_db
+      - DOCUMENTS_PATH=/app/documents
+    volumes:
+      - ./:/app
+    depends_on:
+      - backend

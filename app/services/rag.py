@@ -80,8 +80,7 @@ Page   : {doc.metadata['page']}
 
         confidence = max(
             0.0,
-            1
-            - min(
+            min(
                 doc.metadata.get("score", 1.0)
                 for doc in retrieved_docs
             ),

@@ -164,7 +164,28 @@ http://127.0.0.1:8000/docs
 # Run Streamlit
 
 ```bash
-streamlit run ui/streamlit_app.py
+streamlit run ui/streamlit.py
+```
+
+---
+
+# Docker
+
+Build and run both services with Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+Then open:
+
+- FastAPI: http://127.0.0.1:8000/docs
+- Streamlit: http://127.0.0.1:8501
+
+If you only need the backend container:
+
+```bash
+docker compose up --build backend
 ```
 
 ---

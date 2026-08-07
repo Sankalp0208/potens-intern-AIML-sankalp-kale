@@ -1,0 +1,2343 @@
+[
+    {
+        "id": "HB001",
+        "category": "factual",
+        "question": "What is the probation period for new employees?",
+        "expected_answer": "New employees serve a probation period of 90 days from their date of joining.",
+        "actual_answer": "",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [],
+        "contexts": [],
+        "citations": [],
+        "confidence": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "exact_source_match": 0.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.077,
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+        "id": "HB002",
+        "category": "factual",
+        "question": "What are the standard working hours at Acme Corporation?",
+        "expected_answer": "Standard working hours are 9:30 AM to 6:30 PM, Monday through Friday, with a one-hour lunch break.",
+        "actual_answer": "",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [],
+        "contexts": [],
+        "citations": [],
+        "confidence": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "exact_source_match": 0.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.047,
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+        "id": "HB003",
+        "category": "factual",
+        "question": "What are the core values of Acme Corporation?",
+        "expected_answer": "Acme Corporation's core values are Integrity, Teamwork, Excellence, and Respect.",
+        "actual_answer": "",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [],
+        "contexts": [],
+        "citations": [],
+        "confidence": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "exact_source_match": 0.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.048,
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+        "id": "HB004",
+        "category": "factual",
+        "question": "When are salaries paid to employees?",
+        "expected_answer": "Salaries are credited to employees' bank accounts on the last working day of every month.",
+        "actual_answer": "",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [],
+        "contexts": [],
+        "citations": [],
+        "confidence": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "exact_source_match": 0.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.06,
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+        "id": "HB005",
+        "category": "factual",
+        "question": "How much certification reimbursement can an employee claim per year?",
+        "expected_answer": "Employees can claim reimbursement for job-relevant certifications up to Rs. 25,000 per year after approval from their reporting manager.",
+        "actual_answer": "",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [],
+        "contexts": [],
+        "citations": [],
+        "confidence": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "exact_source_match": 0.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.052,
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+        "id": "HB006",
+        "category": "factual",
+        "question": "When are formal performance reviews conducted?",
+        "expected_answer": "Formal performance reviews are conducted twice a year, in June and December.",
+        "actual_answer": "",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [],
+        "contexts": [],
+        "citations": [],
+        "confidence": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "exact_source_match": 0.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.047,
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+        "id": "HB007",
+        "category": "factual",
+        "question": "How long does the full and final settlement process take?",
+        "expected_answer": "The full and final settlement is processed within 45 days of the employee's last working day.",
+        "actual_answer": "",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [],
+        "contexts": [],
+        "citations": [],
+        "confidence": 0.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "exact_source_match": 0.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.037,
+        "error": "HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /ask (Caused by NewConnectionError(\"HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+    },
+    {
+        "id": "LV001",
+        "category": "factual",
+        "question": "How many casual leave days are employees entitled to each year?",
+        "expected_answer": "Employees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per month.",
+        "actual_answer": "Employees are entitled to 12 days of casual leave per calendar year.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+            "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 0.6848,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 0.7581,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 5,
+                "chunk_id": "leave_policy_page5_chunk1",
+                "score": 0.7707,
+                "snippet": "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 1,
+                "chunk_id": "leave_policy_page1_chunk1",
+                "score": 0.9475,
+                "snippet": "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.68,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 20.397
+    },
+    {
+        "id": "LV002",
+        "category": "factual",
+        "question": "How many sick leave days are available per year?",
+        "expected_answer": "Employees are entitled to 10 days of sick leave per calendar year.",
+        "actual_answer": "10 days of sick leave are available per calendar year.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+            "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 0.7209,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 0.9329,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 5,
+                "chunk_id": "leave_policy_page5_chunk1",
+                "score": 0.9406,
+                "snippet": "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 1,
+                "chunk_id": "leave_policy_page1_chunk1",
+                "score": 1.1844,
+                "snippet": "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.72,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.418
+    },
+    {
+        "id": "LV003",
+        "category": "factual",
+        "question": "When is a medical certificate required for sick leave?",
+        "expected_answer": "A medical certificate is required for sick leave exceeding 2 consecutive days.",
+        "actual_answer": "A medical certificate is required for sick leave exceeding 2 consecutive days.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+            "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 0.8728,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 0.984,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 5,
+                "chunk_id": "leave_policy_page5_chunk1",
+                "score": 1.2214,
+                "snippet": "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 1,
+                "chunk_id": "leave_policy_page1_chunk1",
+                "score": 1.2241,
+                "snippet": "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.87,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.397
+    },
+    {
+        "id": "LV004",
+        "category": "factual",
+        "question": "How much earned leave can an employee carry forward?",
+        "expected_answer": "Earned leave can be carried forward up to a maximum of 45 days.",
+        "actual_answer": "An employee can carry forward up to a maximum of 45 days of earned leave.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch..."
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 0.6378,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 0.9405,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 1,
+                "chunk_id": "leave_policy_page1_chunk1",
+                "score": 1.042,
+                "snippet": "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk2",
+                "score": 1.0844,
+                "snippet": "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch..."
+            }
+        ],
+        "confidence": 0.64,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.313
+    },
+    {
+        "id": "LV005",
+        "category": "factual",
+        "question": "How much paid maternity leave is provided?",
+        "expected_answer": "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory regulations, for up to two children.",
+        "actual_answer": "Female employees are entitled to 26 weeks of paid maternity leave.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "employee_handbook.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch...",
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk2",
+                "score": 0.6038,
+                "snippet": "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 0.78,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 5,
+                "chunk_id": "employee_handbook_page5_chunk1",
+                "score": 1.163,
+                "snippet": "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 1.3013,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            }
+        ],
+        "confidence": 0.6,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.421
+    },
+    {
+        "id": "LV006",
+        "category": "factual",
+        "question": "How much paid paternity leave is available?",
+        "expected_answer": "Male employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the child's birth.",
+        "actual_answer": "Male employees are entitled to 2 weeks of paid paternity leave.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "employee_handbook.pdf"
+        ],
+        "contexts": [
+            "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch...",
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk2",
+                "score": 0.6198,
+                "snippet": "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 1.0737,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 1,
+                "chunk_id": "leave_policy_page1_chunk1",
+                "score": 1.3598,
+                "snippet": "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 5,
+                "chunk_id": "employee_handbook_page5_chunk1",
+                "score": 1.4567,
+                "snippet": "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+            }
+        ],
+        "confidence": 0.62,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.434
+    },
+    {
+        "id": "LV007",
+        "category": "factual",
+        "question": "How far in advance should an employee apply for leave?",
+        "expected_answer": "Leave requests must be submitted through the HR portal at least 2 working days in advance, except in cases of emergency or illness.",
+        "actual_answer": "All leave requests must be submitted through the HR portal at least 2 working days in advance, except in cases of emergency or illness.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "employee_handbook.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+            "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 4,
+                "chunk_id": "leave_policy_page4_chunk1",
+                "score": 0.8445,
+                "snippet": "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 0.8691,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 7,
+                "chunk_id": "employee_handbook_page7_chunk1",
+                "score": 1.0069,
+                "snippet": "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 1,
+                "chunk_id": "leave_policy_page1_chunk1",
+                "score": 1.0208,
+                "snippet": "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.84,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.264
+    },
+    {
+        "id": "LV008",
+        "category": "factual",
+        "question": "What happens to unused casual leave and sick leave?",
+        "expected_answer": "Unused casual leave and sick leave cannot be encashed and will lapse at the end of the calendar year.",
+        "actual_answer": "Unused casual leave and sick leave will lapse at the end of the calendar year if unused.",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "6. Unauthorized Absence\nAny absence from work without prior approval or valid intimation will be treated as unauthorized leave\nand may be marked as Loss of Pay (LOP).\nRepeated instances of unauthorized absence may lead to disciplinary action as outli...",
+            "1. Purpose and Scope\nThis Leave Policy outlines the types of leave available to employees of Acme Corporation, the\nprocess for applying for leave, and the rules governing leave accrual and usage.\nThis policy applies to all full-time employees of Acme..."
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 0.6285,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 0.7486,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 7,
+                "chunk_id": "leave_policy_page7_chunk1",
+                "score": 0.9964,
+                "snippet": "6. Unauthorized Absence\nAny absence from work without prior approval or valid intimation will be treated as unauthorized leave\nand may be marked as Loss of Pay (LOP).\nRepeated instances of unauthorized absence may lead to disciplinary action as outli..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 2,
+                "chunk_id": "leave_policy_page2_chunk1",
+                "score": 1.144,
+                "snippet": "1. Purpose and Scope\nThis Leave Policy outlines the types of leave available to employees of Acme Corporation, the\nprocess for applying for leave, and the rules governing leave accrual and usage.\nThis policy applies to all full-time employees of Acme..."
+            }
+        ],
+        "confidence": 0.63,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.358
+    },
+    {
+        "id": "RW001",
+        "category": "factual",
+        "question": "What factors determine whether an employee is eligible for remote work?",
+        "expected_answer": "Remote work eligibility depends on the nature of the role, business requirements, and the employee's performance record.",
+        "actual_answer": "The factors that determine whether an employee is eligible for remote work are: \n\n1. The nature of the role\n2. Business requirements\n3. The employee's performance record.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+            "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in...",
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+            "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 3,
+                "chunk_id": "remote_work_policy_page3_chunk1",
+                "score": 0.5777,
+                "snippet": "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 7,
+                "chunk_id": "remote_work_policy_page7_chunk1",
+                "score": 0.8945,
+                "snippet": "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 0.9061,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 2,
+                "chunk_id": "remote_work_policy_page2_chunk1",
+                "score": 0.9127,
+                "snippet": "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+            }
+        ],
+        "confidence": 0.58,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.56
+    },
+    {
+        "id": "RW002",
+        "category": "factual",
+        "question": "How many days per week do hybrid employees typically work from the office?",
+        "expected_answer": "Hybrid employees typically work from the office 2 to 3 days per week.",
+        "actual_answer": "Hybrid employees typically work from the office 2-3 days per week.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+            "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status...",
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 1,
+                "chunk_id": "remote_work_policy_page1_chunk1",
+                "score": 0.9539,
+                "snippet": "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 3,
+                "chunk_id": "remote_work_policy_page3_chunk1",
+                "score": 0.9704,
+                "snippet": "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 4,
+                "chunk_id": "remote_work_policy_page4_chunk1",
+                "score": 1.1801,
+                "snippet": "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 1.1896,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            }
+        ],
+        "confidence": 0.95,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.335
+    },
+    {
+        "id": "RW003",
+        "category": "factual",
+        "question": "What are the standard working hours for remote employees?",
+        "expected_answer": "Remote employees are expected to be available and responsive during standard business hours from 9:30 AM to 6:30 PM, unless otherwise agreed with their manager.",
+        "actual_answer": "The standard working hours for remote employees are 9:30 AM to 6:30 PM.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status...",
+            "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+            "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 4,
+                "chunk_id": "remote_work_policy_page4_chunk1",
+                "score": 0.5458,
+                "snippet": "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 3,
+                "chunk_id": "remote_work_policy_page3_chunk1",
+                "score": 0.7887,
+                "snippet": "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 1,
+                "chunk_id": "remote_work_policy_page1_chunk1",
+                "score": 0.8659,
+                "snippet": "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 2,
+                "chunk_id": "remote_work_policy_page2_chunk1",
+                "score": 1.0268,
+                "snippet": "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+            }
+        ],
+        "confidence": 0.55,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.522
+    },
+    {
+        "id": "RW004",
+        "category": "factual",
+        "question": "What equipment does Acme Corporation provide to remote employees?",
+        "expected_answer": "Acme Corporation provides a laptop and, where required, additional equipment such as a monitor, keyboard, and headset.",
+        "actual_answer": "Acme Corporation provides a laptop and, where required, additional equipment such as a monitor, keyboard, and headset for remote employees.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "employee_handbook.pdf"
+        ],
+        "contexts": [
+            "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+            "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote...",
+            "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and..."
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 5,
+                "chunk_id": "remote_work_policy_page5_chunk1",
+                "score": 0.4779,
+                "snippet": "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 2,
+                "chunk_id": "remote_work_policy_page2_chunk1",
+                "score": 0.6931,
+                "snippet": "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 1,
+                "chunk_id": "remote_work_policy_page1_chunk1",
+                "score": 0.7964,
+                "snippet": "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 2,
+                "chunk_id": "employee_handbook_page2_chunk1",
+                "score": 0.9241,
+                "snippet": "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and..."
+            }
+        ],
+        "confidence": 0.48,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.411
+    },
+    {
+        "id": "RW005",
+        "category": "factual",
+        "question": "How much internet and utility reimbursement can remote employees receive?",
+        "expected_answer": "Remote employees are eligible for a monthly internet and utility reimbursement of up to Rs. 1,500, subject to submission of valid bills.",
+        "actual_answer": "Remote employees are eligible for a monthly internet and utility reimbursement of up to Rs. 1,500, subject to submission of valid bills.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+            "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+            "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in..."
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 5,
+                "chunk_id": "remote_work_policy_page5_chunk1",
+                "score": 1.0628,
+                "snippet": "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 3,
+                "chunk_id": "remote_work_policy_page3_chunk1",
+                "score": 1.1171,
+                "snippet": "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 1.139,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 7,
+                "chunk_id": "remote_work_policy_page7_chunk1",
+                "score": 1.1679,
+                "snippet": "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in..."
+            }
+        ],
+        "confidence": 1.06,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.436
+    },
+    {
+        "id": "RW006",
+        "category": "factual",
+        "question": "Can employees use public Wi-Fi to access company systems while working remotely?",
+        "expected_answer": "Public or unsecured Wi-Fi networks must not be used to access company systems unless the employee is connected through the company VPN.",
+        "actual_answer": "Employees can use public Wi-Fi to access company systems while working remotely, but only if they are connected through the company VPN.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "security_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+            "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+            "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+            "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 0.6427,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 3,
+                "chunk_id": "security_policy_page3_chunk1",
+                "score": 1.0614,
+                "snippet": "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 5,
+                "chunk_id": "remote_work_policy_page5_chunk1",
+                "score": 1.1378,
+                "snippet": "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 4,
+                "chunk_id": "remote_work_policy_page4_chunk1",
+                "score": 1.1423,
+                "snippet": "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+            }
+        ],
+        "confidence": 0.64,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.28
+    },
+    {
+        "id": "SEC001",
+        "category": "factual",
+        "question": "What are the four information classification categories used by Acme Corporation?",
+        "expected_answer": "The four information classification categories are Public, Internal, Confidential, and Restricted.",
+        "actual_answer": "The four information classification categories used by Acme Corporation are:\n\n1. Public\n2. Internal\n3. Confidential\n4. Restricted",
+        "expected_sources": [
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "security_policy.pdf",
+            "security_policy.pdf",
+            "employee_handbook.pdf",
+            "employee_handbook.pdf"
+        ],
+        "contexts": [
+            "3. Information Classification\nAll company information is classified into four categories to determine the appropriate level of\nprotection required.\nG\nPublic: Information that can be freely shared, such as marketing material.\nG\nInternal: Information f...",
+            "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo...",
+            "5. Learning and Development\nWe believe in continuous learning. Acme Corporation offers various training programs, certification\nreimbursements, and mentorship opportunities to help employees build their skills.\nInternal Training\nMonthly training sess...",
+            "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 4,
+                "chunk_id": "security_policy_page4_chunk1",
+                "score": 0.7932,
+                "snippet": "3. Information Classification\nAll company information is classified into four categories to determine the appropriate level of\nprotection required.\nG\nPublic: Information that can be freely shared, such as marketing material.\nG\nInternal: Information f..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 2,
+                "chunk_id": "security_policy_page2_chunk1",
+                "score": 1.0348,
+                "snippet": "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 6,
+                "chunk_id": "employee_handbook_page6_chunk1",
+                "score": 1.1292,
+                "snippet": "5. Learning and Development\nWe believe in continuous learning. Acme Corporation offers various training programs, certification\nreimbursements, and mentorship opportunities to help employees build their skills.\nInternal Training\nMonthly training sess..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 2,
+                "chunk_id": "employee_handbook_page2_chunk1",
+                "score": 1.1311,
+                "snippet": "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and..."
+            }
+        ],
+        "confidence": 0.79,
+        "citation_precision": 0.5,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.846
+    },
+    {
+        "id": "SEC002",
+        "category": "factual",
+        "question": "What are the company's password requirements?",
+        "expected_answer": "Passwords must be at least 12 characters long, include uppercase and lowercase letters, numbers, and special characters, and must be changed every 90 days.",
+        "actual_answer": "All passwords must be at least 12 characters long, include a combination of uppercase, lowercase, numbers, and special characters, and must be changed every 90 days.",
+        "expected_sources": [
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "security_policy.pdf",
+            "security_policy.pdf",
+            "remote_work_policy.pdf",
+            "security_policy.pdf"
+        ],
+        "contexts": [
+            "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+            "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+            "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 5,
+                "chunk_id": "security_policy_page5_chunk1",
+                "score": 0.5672,
+                "snippet": "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 6,
+                "chunk_id": "security_policy_page6_chunk1",
+                "score": 0.9999,
+                "snippet": "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 1.1197,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 3,
+                "chunk_id": "security_policy_page3_chunk1",
+                "score": 1.1932,
+                "snippet": "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            }
+        ],
+        "confidence": 0.57,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.354
+    },
+    {
+        "id": "SEC003",
+        "category": "factual",
+        "question": "For which systems is multi-factor authentication mandatory?",
+        "expected_answer": "Multi-factor authentication is mandatory for accessing company email, VPN, and all critical business applications.",
+        "actual_answer": "Multi-factor authentication (MFA) is mandatory for accessing company email, VPN, and all critical business applications.",
+        "expected_sources": [
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "security_policy.pdf",
+            "security_policy.pdf",
+            "security_policy.pdf",
+            "security_policy.pdf"
+        ],
+        "contexts": [
+            "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+            "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+            "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+            "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 5,
+                "chunk_id": "security_policy_page5_chunk1",
+                "score": 0.6855,
+                "snippet": "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 3,
+                "chunk_id": "security_policy_page3_chunk1",
+                "score": 1.2559,
+                "snippet": "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 6,
+                "chunk_id": "security_policy_page6_chunk1",
+                "score": 1.259,
+                "snippet": "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 2,
+                "chunk_id": "security_policy_page2_chunk1",
+                "score": 1.4671,
+                "snippet": "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo..."
+            }
+        ],
+        "confidence": 0.69,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.331
+    },
+    {
+        "id": "SEC004",
+        "category": "factual",
+        "question": "Can employees share their login credentials with IT support staff?",
+        "expected_answer": "No. Employees must never share their login credentials with anyone, including IT support staff or colleagues.",
+        "actual_answer": "No, employees must never share their login credentials with anyone, including IT support staff.",
+        "expected_sources": [
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "security_policy.pdf",
+            "security_policy.pdf",
+            "security_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+            "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+            "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 5,
+                "chunk_id": "security_policy_page5_chunk1",
+                "score": 0.9523,
+                "snippet": "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 3,
+                "chunk_id": "security_policy_page3_chunk1",
+                "score": 1.0418,
+                "snippet": "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 6,
+                "chunk_id": "security_policy_page6_chunk1",
+                "score": 1.1208,
+                "snippet": "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 1.1288,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            }
+        ],
+        "confidence": 0.95,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.363
+    },
+    {
+        "id": "SEC005",
+        "category": "factual",
+        "question": "What should an employee do after discovering a suspected security incident?",
+        "expected_answer": "The employee must report the incident to the IT Security team immediately, using security@acmecorp.com or the IT helpdesk within 1 hour of discovery. The employee should not investigate or resolve the incident independently and should preserve relevant evidence.",
+        "actual_answer": "After discovering a suspected security incident, an employee should: \n1. Report the incident to security@acmecorp.com or the IT helpdesk within 1 hour of discovery.\n2. Not attempt to investigate or resolve the incident independently.\n3. Preserve all evidence, such as suspicious emails, without forwarding them further.\n4. Cooperate fully with the IT Security team's investigation.",
+        "expected_sources": [
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "security_policy.pdf",
+            "travel_policy.pdf",
+            "security_policy.pdf",
+            "security_policy.pdf"
+        ],
+        "contexts": [
+            "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th...",
+            "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company...",
+            "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 7,
+                "chunk_id": "security_policy_page7_chunk1",
+                "score": 0.7875,
+                "snippet": "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 7,
+                "chunk_id": "travel_policy_page7_chunk1",
+                "score": 1.2498,
+                "snippet": "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 1,
+                "chunk_id": "security_policy_page1_chunk1",
+                "score": 1.2624,
+                "snippet": "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 2,
+                "chunk_id": "security_policy_page2_chunk1",
+                "score": 1.3625,
+                "snippet": "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo..."
+            }
+        ],
+        "confidence": 0.79,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.471
+    },
+    {
+        "id": "SEC006",
+        "category": "factual",
+        "question": "Can employees install unauthorized software on company devices?",
+        "expected_answer": "No. Employees must not install unauthorized or unlicensed software on company devices. Software requests must go through the IT helpdesk.",
+        "actual_answer": "No, employees must not install unauthorized or unlicensed software on company devices. All software requests must go through the IT helpdesk.",
+        "expected_sources": [
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "security_policy.pdf",
+            "remote_work_policy.pdf",
+            "security_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+            "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+            "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 6,
+                "chunk_id": "security_policy_page6_chunk1",
+                "score": 0.8581,
+                "snippet": "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 1.052,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 3,
+                "chunk_id": "security_policy_page3_chunk1",
+                "score": 1.0749,
+                "snippet": "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 5,
+                "chunk_id": "remote_work_policy_page5_chunk1",
+                "score": 1.1599,
+                "snippet": "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+            }
+        ],
+        "confidence": 0.86,
+        "citation_precision": 0.5,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 0.402
+    },
+    {
+        "id": "TR001",
+        "category": "factual",
+        "question": "How far in advance should domestic business travel be requested?",
+        "expected_answer": "Domestic travel requests should be submitted at least 5 working days in advance.",
+        "actual_answer": "Domestic travel requests should be submitted at least 5 working days in advance.",
+        "expected_sources": [
+            "travel_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf"
+        ],
+        "contexts": [
+            "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d...",
+            "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+            "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 3,
+                "chunk_id": "travel_policy_page3_chunk1",
+                "score": 0.6849,
+                "snippet": "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 1,
+                "chunk_id": "travel_policy_page1_chunk1",
+                "score": 0.712,
+                "snippet": "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 2,
+                "chunk_id": "travel_policy_page2_chunk1",
+                "score": 1.0246,
+                "snippet": "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 7,
+                "chunk_id": "travel_policy_page7_chunk1",
+                "score": 1.1231,
+                "snippet": "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+            }
+        ],
+        "confidence": 0.68,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 1.241
+    },
+    {
+        "id": "TR002",
+        "category": "factual",
+        "question": "How far in advance should international business travel be requested?",
+        "expected_answer": "International travel requests require a minimum of 15 working days for visa processing.",
+        "actual_answer": "International travel requests require a minimum of 15 working days for visa processing.",
+        "expected_sources": [
+            "travel_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf"
+        ],
+        "contexts": [
+            "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d...",
+            "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+            "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 3,
+                "chunk_id": "travel_policy_page3_chunk1",
+                "score": 0.572,
+                "snippet": "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 1,
+                "chunk_id": "travel_policy_page1_chunk1",
+                "score": 0.7225,
+                "snippet": "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 2,
+                "chunk_id": "travel_policy_page2_chunk1",
+                "score": 0.9632,
+                "snippet": "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 7,
+                "chunk_id": "travel_policy_page7_chunk1",
+                "score": 1.1368,
+                "snippet": "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+            }
+        ],
+        "confidence": 0.57,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.298
+    },
+    {
+        "id": "TR003",
+        "category": "factual",
+        "question": "What class of flight can managers and below use for domestic travel?",
+        "expected_answer": "Managers and below are entitled to economy class for all domestic flights.",
+        "actual_answer": "For domestic travel, Managers and below are entitled to Economy class for all domestic flights.",
+        "expected_sources": [
+            "travel_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf"
+        ],
+        "contexts": [
+            "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for...",
+            "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company...",
+            "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+            "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 4,
+                "chunk_id": "travel_policy_page4_chunk1",
+                "score": 0.7939,
+                "snippet": "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 7,
+                "chunk_id": "travel_policy_page7_chunk1",
+                "score": 1.1678,
+                "snippet": "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 2,
+                "chunk_id": "travel_policy_page2_chunk1",
+                "score": 1.1734,
+                "snippet": "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 1,
+                "chunk_id": "travel_policy_page1_chunk1",
+                "score": 1.2268,
+                "snippet": "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.79,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.339
+    },
+    {
+        "id": "TR004",
+        "category": "factual",
+        "question": "Within how many days must employees submit travel expense claims?",
+        "expected_answer": "Travel-related expenses must be submitted through the Expense Management System within 15 days of completing the trip, along with original receipts.",
+        "actual_answer": "Within 15 days of completing the trip.",
+        "expected_sources": [
+            "travel_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "leave_policy.pdf",
+            "travel_policy.pdf"
+        ],
+        "contexts": [
+            "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+            "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d...",
+            "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+            "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 6,
+                "chunk_id": "travel_policy_page6_chunk1",
+                "score": 0.6702,
+                "snippet": "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 3,
+                "chunk_id": "travel_policy_page3_chunk1",
+                "score": 0.8827,
+                "snippet": "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 5,
+                "chunk_id": "leave_policy_page5_chunk1",
+                "score": 1.022,
+                "snippet": "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 2,
+                "chunk_id": "travel_policy_page2_chunk1",
+                "score": 1.0556,
+                "snippet": "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            }
+        ],
+        "confidence": 0.67,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.429
+    },
+    {
+        "id": "TR005",
+        "category": "factual",
+        "question": "Which travel expenses are not reimbursable?",
+        "expected_answer": "Non-reimbursable expenses include personal entertainment and mini-bar charges, traffic fines and penalties, expenses for family members accompanying the employee, and alcohol and tobacco purchases.",
+        "actual_answer": "The following expenses are non-reimbursable:\n\n1. Personal entertainment and mini-bar charges.\n2. Traffic fines and penalties.\n3. Expenses for family members accompanying the employee.\n4. Alcohol and tobacco purchases.",
+        "expected_sources": [
+            "travel_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf"
+        ],
+        "contexts": [
+            "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+            "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+            "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for...",
+            "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 6,
+                "chunk_id": "travel_policy_page6_chunk1",
+                "score": 0.6877,
+                "snippet": "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 2,
+                "chunk_id": "travel_policy_page2_chunk1",
+                "score": 1.0222,
+                "snippet": "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 4,
+                "chunk_id": "travel_policy_page4_chunk1",
+                "score": 1.1511,
+                "snippet": "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 1,
+                "chunk_id": "travel_policy_page1_chunk1",
+                "score": 1.2984,
+                "snippet": "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.69,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.55
+    },
+    {
+        "id": "MULTI001",
+        "category": "multi_document",
+        "question": "If I am working remotely, what are my normal working hours and what security measure should I use when accessing internal company systems?",
+        "expected_answer": "Remote employees are normally expected to be available from 9:30 AM to 6:30 PM. When accessing internal systems or confidential data from a remote location, employees must connect through the company VPN.",
+        "actual_answer": "As a remote employee, your normal working hours are 9:30 AM to 6:30 PM, unless otherwise agreed with your manager. When accessing internal company systems, you must connect to the company VPN.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+            "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status...",
+            "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+            "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 0.8378,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 4,
+                "chunk_id": "remote_work_policy_page4_chunk1",
+                "score": 0.8526,
+                "snippet": "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 3,
+                "chunk_id": "remote_work_policy_page3_chunk1",
+                "score": 1.025,
+                "snippet": "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 1,
+                "chunk_id": "remote_work_policy_page1_chunk1",
+                "score": 1.093,
+                "snippet": "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.84,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.492
+    },
+    {
+        "id": "MULTI002",
+        "category": "multi_document",
+        "question": "I am working remotely and need to take three consecutive days of sick leave. What documentation is required, and what security requirement applies when accessing internal systems remotely?",
+        "expected_answer": "A medical certificate is required because the sick leave exceeds 2 consecutive days. When accessing internal systems or confidential data remotely, the employee must use the company VPN.",
+        "actual_answer": "I couldn't find enough information in the provided documents.",
+        "expected_sources": [
+            "leave_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "remote_work_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+            "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT..."
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 0.9088,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 1.0206,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 3,
+                "chunk_id": "remote_work_policy_page3_chunk1",
+                "score": 1.0913,
+                "snippet": "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 4,
+                "chunk_id": "leave_policy_page4_chunk1",
+                "score": 1.154,
+                "snippet": "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT..."
+            }
+        ],
+        "confidence": 0.91,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.393
+    },
+    {
+        "id": "MULTI003",
+        "category": "multi_document",
+        "question": "An employee is traveling on official business and discovers a phishing email. What travel protection applies and what should the employee do about the security incident?",
+        "expected_answer": "Employees traveling on official business are covered by the company's corporate travel insurance for the duration of the trip. The suspected phishing incident must be reported to the IT Security team immediately, through security@acmecorp.com or the IT helpdesk within 1 hour of discovery.",
+        "actual_answer": "The employee is covered under the company's corporate travel insurance policy for the duration of the trip. \n\nRegarding the security incident, the employee should report the phishing email to security@acmecorp.com or the IT helpdesk within 1 hour of discovery, preserve all evidence, and cooperate fully with the IT Security team's investigation, without attempting to investigate or resolve the incident independently.",
+        "expected_sources": [
+            "travel_policy.pdf",
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "security_policy.pdf",
+            "security_policy.pdf",
+            "travel_policy.pdf"
+        ],
+        "contexts": [
+            "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company...",
+            "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th...",
+            "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+            "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 7,
+                "chunk_id": "travel_policy_page7_chunk1",
+                "score": 0.8732,
+                "snippet": "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 7,
+                "chunk_id": "security_policy_page7_chunk1",
+                "score": 1.0521,
+                "snippet": "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 3,
+                "chunk_id": "security_policy_page3_chunk1",
+                "score": 1.2012,
+                "snippet": "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 1,
+                "chunk_id": "travel_policy_page1_chunk1",
+                "score": 1.2037,
+                "snippet": "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.87,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.505
+    },
+    {
+        "id": "MULTI004",
+        "category": "multi_document",
+        "question": "If an employee resigns with unused earned leave, what does the handbook say about final settlement and what does the leave policy say about earned leave carry forward?",
+        "expected_answer": "The full and final settlement, including leave encashment and other dues, is processed within 45 days of the last working day. Earned leave can be carried forward up to a maximum of 45 days.",
+        "actual_answer": "According to the employee_handbook.pdf, the full and final settlement, including pending salary, leave encashment, and other dues, is processed within 45 days of the last working day.\n\nAccording to the leave_policy.pdf, unused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the calendar year based on the employee's basic salary.",
+        "expected_sources": [
+            "employee_handbook.pdf",
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "employee_handbook.pdf",
+            "leave_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+            "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "1. Purpose and Scope\nThis Leave Policy outlines the types of leave available to employees of Acme Corporation, the\nprocess for applying for leave, and the rules governing leave accrual and usage.\nThis policy applies to all full-time employees of Acme..."
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 0.7628,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 7,
+                "chunk_id": "employee_handbook_page7_chunk1",
+                "score": 0.7846,
+                "snippet": "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 1,
+                "chunk_id": "leave_policy_page1_chunk1",
+                "score": 0.9099,
+                "snippet": "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 2,
+                "chunk_id": "leave_policy_page2_chunk1",
+                "score": 0.9578,
+                "snippet": "1. Purpose and Scope\nThis Leave Policy outlines the types of leave available to employees of Acme Corporation, the\nprocess for applying for leave, and the rules governing leave accrual and usage.\nThis policy applies to all full-time employees of Acme..."
+            }
+        ],
+        "confidence": 0.76,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.613
+    },
+    {
+        "id": "NEG001",
+        "category": "unanswerable",
+        "question": "What is the CEO's annual salary?",
+        "expected_answer": "This information is not provided in the available documents.",
+        "actual_answer": "I couldn't find enough information in the provided documents.",
+        "expected_sources": [],
+        "actual_sources": [
+            "employee_handbook.pdf",
+            "employee_handbook.pdf",
+            "leave_policy.pdf",
+            "security_policy.pdf"
+        ],
+        "contexts": [
+            "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c...",
+            "ACME CORPORATION\nEmployee Handbook\nA Guide to Working at Acme Corporation\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch...",
+            "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "employee_handbook.pdf",
+                "page": 5,
+                "chunk_id": "employee_handbook_page5_chunk1",
+                "score": 1.3126,
+                "snippet": "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 1,
+                "chunk_id": "employee_handbook_page1_chunk1",
+                "score": 1.5031,
+                "snippet": "ACME CORPORATION\nEmployee Handbook\nA Guide to Working at Acme Corporation\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk2",
+                "score": 1.605,
+                "snippet": "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 1,
+                "chunk_id": "security_policy_page1_chunk1",
+                "score": 1.6237,
+                "snippet": "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 1.31,
+        "citation_precision": null,
+        "citation_recall": null,
+        "exact_source_match": null,
+        "abstained_correctly": true,
+        "latency_seconds": 2.278
+    },
+    {
+        "id": "NEG002",
+        "category": "unanswerable",
+        "question": "What is the Wi-Fi password of the Pune office?",
+        "expected_answer": "This information is not provided in the available documents.",
+        "actual_answer": "I couldn't find enough information in the provided documents.",
+        "expected_sources": [],
+        "actual_sources": [
+            "security_policy.pdf",
+            "remote_work_policy.pdf",
+            "security_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+            "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+            "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 5,
+                "chunk_id": "security_policy_page5_chunk1",
+                "score": 1.1082,
+                "snippet": "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 5,
+                "chunk_id": "remote_work_policy_page5_chunk1",
+                "score": 1.2921,
+                "snippet": "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 3,
+                "chunk_id": "security_policy_page3_chunk1",
+                "score": 1.3389,
+                "snippet": "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 1.3473,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            }
+        ],
+        "confidence": 1.11,
+        "citation_precision": null,
+        "citation_recall": null,
+        "exact_source_match": null,
+        "abstained_correctly": true,
+        "latency_seconds": 3.28
+    },
+    {
+        "id": "NEG003",
+        "category": "unanswerable",
+        "question": "Which programming language does Acme Corporation use for its backend systems?",
+        "expected_answer": "This information is not provided in the available documents.",
+        "actual_answer": "I couldn't find enough information in the provided documents.",
+        "expected_sources": [],
+        "actual_sources": [
+            "employee_handbook.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "employee_handbook.pdf"
+        ],
+        "contexts": [
+            "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and...",
+            "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+            "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote...",
+            "5. Learning and Development\nWe believe in continuous learning. Acme Corporation offers various training programs, certification\nreimbursements, and mentorship opportunities to help employees build their skills.\nInternal Training\nMonthly training sess..."
+        ],
+        "citations": [
+            {
+                "source": "employee_handbook.pdf",
+                "page": 2,
+                "chunk_id": "employee_handbook_page2_chunk1",
+                "score": 1.0224,
+                "snippet": "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 5,
+                "chunk_id": "remote_work_policy_page5_chunk1",
+                "score": 1.0806,
+                "snippet": "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 2,
+                "chunk_id": "remote_work_policy_page2_chunk1",
+                "score": 1.1036,
+                "snippet": "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 6,
+                "chunk_id": "employee_handbook_page6_chunk1",
+                "score": 1.1366,
+                "snippet": "5. Learning and Development\nWe believe in continuous learning. Acme Corporation offers various training programs, certification\nreimbursements, and mentorship opportunities to help employees build their skills.\nInternal Training\nMonthly training sess..."
+            }
+        ],
+        "confidence": 1.02,
+        "citation_precision": null,
+        "citation_recall": null,
+        "exact_source_match": null,
+        "abstained_correctly": true,
+        "latency_seconds": 3.457
+    },
+    {
+        "id": "PART001",
+        "category": "partial_answer",
+        "question": "What is the exact hotel reimbursement limit per night for Mumbai?",
+        "expected_answer": "The exact reimbursement amount is not provided in the available documents. The Travel Policy states that hotel limits depend on the employee's city category and grade.",
+        "actual_answer": "I couldn't find enough information in the provided documents.",
+        "expected_sources": [
+            "travel_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "employee_handbook.pdf"
+        ],
+        "contexts": [
+            "4. Accommodation Guidelines\nHotel accommodation should be booked through the travel desk within the per-night limits specified\nfor the employee's city category and grade.\nCity Categories\nCities are classified as Category A (metro), Category B (tier 2...",
+            "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+            "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+            "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 5,
+                "chunk_id": "travel_policy_page5_chunk1",
+                "score": 0.9288,
+                "snippet": "4. Accommodation Guidelines\nHotel accommodation should be booked through the travel desk within the per-night limits specified\nfor the employee's city category and grade.\nCity Categories\nCities are classified as Category A (metro), Category B (tier 2..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 6,
+                "chunk_id": "travel_policy_page6_chunk1",
+                "score": 1.1443,
+                "snippet": "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 2,
+                "chunk_id": "travel_policy_page2_chunk1",
+                "score": 1.3986,
+                "snippet": "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 5,
+                "chunk_id": "employee_handbook_page5_chunk1",
+                "score": 1.4261,
+                "snippet": "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+            }
+        ],
+        "confidence": 0.93,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.349
+    },
+    {
+        "id": "PART002",
+        "category": "partial_answer",
+        "question": "What is the exact daily allowance amount for employees traveling on business?",
+        "expected_answer": "The exact daily allowance amount is not provided in the available documents. The Travel Policy states that per diem rates are published on the HR portal.",
+        "actual_answer": "I couldn't find enough information in the provided documents.",
+        "expected_sources": [
+            "travel_policy.pdf"
+        ],
+        "actual_sources": [
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf",
+            "travel_policy.pdf"
+        ],
+        "contexts": [
+            "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+            "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for...",
+            "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+            "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+        ],
+        "citations": [
+            {
+                "source": "travel_policy.pdf",
+                "page": 6,
+                "chunk_id": "travel_policy_page6_chunk1",
+                "score": 0.8753,
+                "snippet": "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 4,
+                "chunk_id": "travel_policy_page4_chunk1",
+                "score": 1.0921,
+                "snippet": "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 2,
+                "chunk_id": "travel_policy_page2_chunk1",
+                "score": 1.1314,
+                "snippet": "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            },
+            {
+                "source": "travel_policy.pdf",
+                "page": 1,
+                "chunk_id": "travel_policy_page1_chunk1",
+                "score": 1.1388,
+                "snippet": "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            }
+        ],
+        "confidence": 0.88,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.439
+    },
+    {
+        "id": "HI001",
+        "category": "multilingual",
+        "question": "कर्मचारियों को साल में कितनी casual leave मिलती है?",
+        "expected_answer": "Employees are entitled to 12 days of casual leave per calendar year.",
+        "actual_answer": "कर्मचारियों को साल में 12 दिन की कैजुअल लीव मिलती है, जो प्रति माह 1 दिन की दर से जमा होती है।",
+        "expected_sources": [
+            "leave_policy.pdf"
+        ],
+        "actual_sources": [
+            "leave_policy.pdf",
+            "leave_policy.pdf",
+            "employee_handbook.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+            "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT..."
+        ],
+        "citations": [
+            {
+                "source": "leave_policy.pdf",
+                "page": 3,
+                "chunk_id": "leave_policy_page3_chunk1",
+                "score": 1.4157,
+                "snippet": "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 1.4584,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 7,
+                "chunk_id": "employee_handbook_page7_chunk1",
+                "score": 1.4883,
+                "snippet": "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 4,
+                "chunk_id": "leave_policy_page4_chunk1",
+                "score": 1.5113,
+                "snippet": "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT..."
+            }
+        ],
+        "confidence": 1.42,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 4.424
+    },
+    {
+        "id": "HI002",
+        "category": "multilingual",
+        "question": "Remote employee ko company VPN kab use karna chahiye?",
+        "expected_answer": "Remote employees must use the company VPN whenever accessing internal systems or confidential data from a remote location.",
+        "actual_answer": "Remote employee ko company VPN use karna chahiye jab ve internal systems ya confidential data access kar rahe hon remote location se.",
+        "expected_sources": [
+            "remote_work_policy.pdf"
+        ],
+        "actual_sources": [
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf",
+            "remote_work_policy.pdf"
+        ],
+        "contexts": [
+            "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+            "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+            "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in...",
+            "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+        ],
+        "citations": [
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 6,
+                "chunk_id": "remote_work_policy_page6_chunk1",
+                "score": 0.8815,
+                "snippet": "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 3,
+                "chunk_id": "remote_work_policy_page3_chunk1",
+                "score": 1.2738,
+                "snippet": "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 7,
+                "chunk_id": "remote_work_policy_page7_chunk1",
+                "score": 1.2832,
+                "snippet": "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in..."
+            },
+            {
+                "source": "remote_work_policy.pdf",
+                "page": 4,
+                "chunk_id": "remote_work_policy_page4_chunk1",
+                "score": 1.3133,
+                "snippet": "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+            }
+        ],
+        "confidence": 0.88,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.467
+    },
+    {
+        "id": "MR001",
+        "category": "multilingual",
+        "question": "कर्मचाऱ्यांसाठी probation period किती दिवसांचा आहे?",
+        "expected_answer": "The probation period for new employees is 90 days from the date of joining.",
+        "actual_answer": "कर्मचाऱ्यांसाठी probation period ९० दिवसांचा आहे.",
+        "expected_sources": [
+            "employee_handbook.pdf"
+        ],
+        "actual_sources": [
+            "employee_handbook.pdf",
+            "leave_policy.pdf",
+            "employee_handbook.pdf",
+            "employee_handbook.pdf"
+        ],
+        "contexts": [
+            "2. Employment Basics\nEmployment Categories\nEmployees at Acme Corporation are classified as Full-Time, Part-Time, or Contract/Temporary. Your\noffer letter specifies your employment category and applicable benefits.\nProbation Period\nNew employees serve...",
+            "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+            "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+            "required for client meetings and official events.\nDisciplinary Action\nViolations of the code of conduct may result in verbal warning, written warning, suspension, or\ntermination, depending on the severity of the violation."
+        ],
+        "citations": [
+            {
+                "source": "employee_handbook.pdf",
+                "page": 3,
+                "chunk_id": "employee_handbook_page3_chunk1",
+                "score": 1.2972,
+                "snippet": "2. Employment Basics\nEmployment Categories\nEmployees at Acme Corporation are classified as Full-Time, Part-Time, or Contract/Temporary. Your\noffer letter specifies your employment category and applicable benefits.\nProbation Period\nNew employees serve..."
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 6,
+                "chunk_id": "leave_policy_page6_chunk1",
+                "score": 1.4826,
+                "snippet": "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 7,
+                "chunk_id": "employee_handbook_page7_chunk1",
+                "score": 1.5212,
+                "snippet": "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 4,
+                "chunk_id": "employee_handbook_page4_chunk2",
+                "score": 1.5814,
+                "snippet": "required for client meetings and official events.\nDisciplinary Action\nViolations of the code of conduct may result in verbal warning, written warning, suspension, or\ntermination, depending on the severity of the violation."
+            }
+        ],
+        "confidence": 1.3,
+        "citation_precision": 0.75,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 3.322
+    },
+    {
+        "id": "MR002",
+        "category": "multilingual",
+        "question": "Security incident सापडल्यानंतर किती वेळात report करणे आवश्यक आहे?",
+        "expected_answer": "A suspected security incident must be reported to the IT Security team immediately and through the designated email or IT helpdesk within 1 hour of discovery.",
+        "actual_answer": "सुरक्षा घटना सापडल्यानंतर ती 1 तासांच्या आत रिपोर्ट करणे आवश्यक आहे.",
+        "expected_sources": [
+            "security_policy.pdf"
+        ],
+        "actual_sources": [
+            "security_policy.pdf",
+            "employee_handbook.pdf",
+            "security_policy.pdf",
+            "leave_policy.pdf"
+        ],
+        "contexts": [
+            "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th...",
+            "required for client meetings and official events.\nDisciplinary Action\nViolations of the code of conduct may result in verbal warning, written warning, suspension, or\ntermination, depending on the severity of the violation.",
+            "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+            "6. Unauthorized Absence\nAny absence from work without prior approval or valid intimation will be treated as unauthorized leave\nand may be marked as Loss of Pay (LOP).\nRepeated instances of unauthorized absence may lead to disciplinary action as outli..."
+        ],
+        "citations": [
+            {
+                "source": "security_policy.pdf",
+                "page": 7,
+                "chunk_id": "security_policy_page7_chunk1",
+                "score": 1.3046,
+                "snippet": "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th..."
+            },
+            {
+                "source": "employee_handbook.pdf",
+                "page": 4,
+                "chunk_id": "employee_handbook_page4_chunk2",
+                "score": 1.5121,
+                "snippet": "required for client meetings and official events.\nDisciplinary Action\nViolations of the code of conduct may result in verbal warning, written warning, suspension, or\ntermination, depending on the severity of the violation."
+            },
+            {
+                "source": "security_policy.pdf",
+                "page": 1,
+                "chunk_id": "security_policy_page1_chunk1",
+                "score": 1.5338,
+                "snippet": "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            },
+            {
+                "source": "leave_policy.pdf",
+                "page": 7,
+                "chunk_id": "leave_policy_page7_chunk1",
+                "score": 1.5623,
+                "snippet": "6. Unauthorized Absence\nAny absence from work without prior approval or valid intimation will be treated as unauthorized leave\nand may be marked as Loss of Pay (LOP).\nRepeated instances of unauthorized absence may lead to disciplinary action as outli..."
+            }
+        ],
+        "confidence": 1.3,
+        "citation_precision": 0.5,
+        "citation_recall": 1.0,
+        "exact_source_match": 1.0,
+        "abstained_correctly": null,
+        "latency_seconds": 2.521
+    }
+]

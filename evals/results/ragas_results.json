@@ -1,0 +1,1194 @@
+{
+    "configuration": {
+        "ragas_version": "0.4.3",
+        "llm_provider": "Groq OpenAI-compatible API",
+        "llm_model": "llama-3.3-70b-versatile",
+        "embedding_provider": "RAGAS HuggingFaceEmbeddings",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "summary": {
+        "total_questions": 45,
+        "ragas_evaluated": 38,
+        "ragas_skipped": 7,
+        "metrics": {
+            "faithfulness": 0.6,
+            "answer_relevancy": 0.8698355914086705,
+            "context_precision": 0.49999999995,
+            "context_recall": 0.5
+        },
+        "successful_metric_evaluations": {
+            "faithfulness": 5,
+            "answer_relevancy": 4,
+            "context_precision": 4,
+            "context_recall": 4
+        },
+        "metric_failures": {
+            "faithfulness": 33,
+            "answer_relevancy": 34,
+            "context_precision": 34,
+            "context_recall": 34
+        }
+    },
+    "skipped_rows": [
+        {
+            "id": "HB001",
+            "category": "factual",
+            "reasons": [
+                "missing actual_answer",
+                "missing contexts"
+            ]
+        },
+        {
+            "id": "HB002",
+            "category": "factual",
+            "reasons": [
+                "missing actual_answer",
+                "missing contexts"
+            ]
+        },
+        {
+            "id": "HB003",
+            "category": "factual",
+            "reasons": [
+                "missing actual_answer",
+                "missing contexts"
+            ]
+        },
+        {
+            "id": "HB004",
+            "category": "factual",
+            "reasons": [
+                "missing actual_answer",
+                "missing contexts"
+            ]
+        },
+        {
+            "id": "HB005",
+            "category": "factual",
+            "reasons": [
+                "missing actual_answer",
+                "missing contexts"
+            ]
+        },
+        {
+            "id": "HB006",
+            "category": "factual",
+            "reasons": [
+                "missing actual_answer",
+                "missing contexts"
+            ]
+        },
+        {
+            "id": "HB007",
+            "category": "factual",
+            "reasons": [
+                "missing actual_answer",
+                "missing contexts"
+            ]
+        }
+    ],
+    "results": [
+        {
+            "id": "LV001",
+            "category": "factual",
+            "question": "How many casual leave days are employees entitled to each year?",
+            "expected_answer": "Employees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per month.",
+            "actual_answer": "Employees are entitled to 12 days of casual leave per calendar year.",
+            "retrieved_contexts": [
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+                "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.9605783091840632,
+            "context_precision": 0.9999999999,
+            "context_recall": 1.0,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            }
+        },
+        {
+            "id": "LV002",
+            "category": "factual",
+            "question": "How many sick leave days are available per year?",
+            "expected_answer": "Employees are entitled to 10 days of sick leave per calendar year.",
+            "actual_answer": "10 days of sick leave are available per calendar year.",
+            "retrieved_contexts": [
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+                "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": 0.0,
+            "answer_relevancy": 0.9547413546746029,
+            "context_precision": 0.0,
+            "context_recall": 0.0,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            }
+        },
+        {
+            "id": "LV003",
+            "category": "factual",
+            "question": "When is a medical certificate required for sick leave?",
+            "expected_answer": "A medical certificate is required for sick leave exceeding 2 consecutive days.",
+            "actual_answer": "A medical certificate is required for sick leave exceeding 2 consecutive days.",
+            "retrieved_contexts": [
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+                "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": 0.0,
+            "answer_relevancy": 0.7088207480401559,
+            "context_precision": 0.0,
+            "context_recall": 0.0,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            }
+        },
+        {
+            "id": "LV004",
+            "category": "factual",
+            "question": "How much earned leave can an employee carry forward?",
+            "expected_answer": "Earned leave can be carried forward up to a maximum of 45 days.",
+            "actual_answer": "An employee can carry forward up to a maximum of 45 days of earned leave.",
+            "retrieved_contexts": [
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch..."
+            ],
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.8552019537358602,
+            "context_precision": 0.9999999999,
+            "context_recall": 1.0,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            }
+        },
+        {
+            "id": "LV005",
+            "category": "factual",
+            "question": "How much paid maternity leave is provided?",
+            "expected_answer": "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory regulations, for up to two children.",
+            "actual_answer": "Female employees are entitled to 26 weeks of paid maternity leave.",
+            "retrieved_contexts": [
+                "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch...",
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a..."
+            ],
+            "faithfulness": 1.0,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": null,
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 751. Please try again in 3m28.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 1306. Please try again in 11m27.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 1980. Please try again in 21m10.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "LV006",
+            "category": "factual",
+            "question": "How much paid paternity leave is available?",
+            "expected_answer": "Male employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the child's birth.",
+            "actual_answer": "Male employees are entitled to 2 weeks of paid paternity leave.",
+            "retrieved_contexts": [
+                "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch...",
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 633. Please try again in 1m46.271999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 787. Please try again in 3m59.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 1267. Please try again in 10m54.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 2001. Please try again in 21m28.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "LV007",
+            "category": "factual",
+            "question": "How far in advance should an employee apply for leave?",
+            "expected_answer": "Leave requests must be submitted through the HR portal at least 2 working days in advance, except in cases of emergency or illness.",
+            "actual_answer": "All leave requests must be submitted through the HR portal at least 2 working days in advance, except in cases of emergency or illness.",
+            "retrieved_contexts": [
+                "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+                "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 648. Please try again in 1m59.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 756. Please try again in 3m32.543999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 1276. Please try again in 11m1.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 1995. Please try again in 21m23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "LV008",
+            "category": "factual",
+            "question": "What happens to unused casual leave and sick leave?",
+            "expected_answer": "Unused casual leave and sick leave cannot be encashed and will lapse at the end of the calendar year.",
+            "actual_answer": "Unused casual leave and sick leave will lapse at the end of the calendar year if unused.",
+            "retrieved_contexts": [
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "6. Unauthorized Absence\nAny absence from work without prior approval or valid intimation will be treated as unauthorized leave\nand may be marked as Loss of Pay (LOP).\nRepeated instances of unauthorized absence may lead to disciplinary action as outli...",
+                "1. Purpose and Scope\nThis Leave Policy outlines the types of leave available to employees of Acme Corporation, the\nprocess for applying for leave, and the rules governing leave accrual and usage.\nThis policy applies to all full-time employees of Acme..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 638. Please try again in 1m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99490, Requested 791. Please try again in 4m2.784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 1307. Please try again in 11m27.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 1964. Please try again in 20m55.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "RW001",
+            "category": "factual",
+            "question": "What factors determine whether an employee is eligible for remote work?",
+            "expected_answer": "Remote work eligibility depends on the nature of the role, business requirements, and the employee's performance record.",
+            "actual_answer": "The factors that determine whether an employee is eligible for remote work are: \n\n1. The nature of the role\n2. Business requirements\n3. The employee's performance record.",
+            "retrieved_contexts": [
+                "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+                "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in...",
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+                "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 660. Please try again in 2m8.735999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 811. Please try again in 4m19.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 1267. Please try again in 10m53.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 1937. Please try again in 20m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "RW002",
+            "category": "factual",
+            "question": "How many days per week do hybrid employees typically work from the office?",
+            "expected_answer": "Hybrid employees typically work from the office 2 to 3 days per week.",
+            "actual_answer": "Hybrid employees typically work from the office 2-3 days per week.",
+            "retrieved_contexts": [
+                "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+                "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status...",
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 675. Please try again in 2m21.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 789. Please try again in 4m0.191999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 1288. Please try again in 11m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 1943. Please try again in 20m37.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "RW003",
+            "category": "factual",
+            "question": "What are the standard working hours for remote employees?",
+            "expected_answer": "Remote employees are expected to be available and responsive during standard business hours from 9:30 AM to 6:30 PM, unless otherwise agreed with their manager.",
+            "actual_answer": "The standard working hours for remote employees are 9:30 AM to 6:30 PM.",
+            "retrieved_contexts": [
+                "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status...",
+                "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+                "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99489, Requested 640. Please try again in 1m51.455999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 749. Please try again in 3m24.768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1276. Please try again in 11m0.096s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1942. Please try again in 20m35.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "RW004",
+            "category": "factual",
+            "question": "What equipment does Acme Corporation provide to remote employees?",
+            "expected_answer": "Acme Corporation provides a laptop and, where required, additional equipment such as a monitor, keyboard, and headset.",
+            "actual_answer": "Acme Corporation provides a laptop and, where required, additional equipment such as a monitor, keyboard, and headset for remote employees.",
+            "retrieved_contexts": [
+                "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+                "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote...",
+                "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 638. Please try again in 1m48.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 764. Please try again in 3m37.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1298. Please try again in 11m19.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1975. Please try again in 21m4.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "RW005",
+            "category": "factual",
+            "question": "How much internet and utility reimbursement can remote employees receive?",
+            "expected_answer": "Remote employees are eligible for a monthly internet and utility reimbursement of up to Rs. 1,500, subject to submission of valid bills.",
+            "actual_answer": "Remote employees are eligible for a monthly internet and utility reimbursement of up to Rs. 1,500, subject to submission of valid bills.",
+            "retrieved_contexts": [
+                "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+                "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+                "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 684. Please try again in 2m28.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 766. Please try again in 3m39.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1259. Please try again in 10m45.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1981. Please try again in 21m9.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "RW006",
+            "category": "factual",
+            "question": "Can employees use public Wi-Fi to access company systems while working remotely?",
+            "expected_answer": "Public or unsecured Wi-Fi networks must not be used to access company systems unless the employee is connected through the company VPN.",
+            "actual_answer": "Employees can use public Wi-Fi to access company systems while working remotely, but only if they are connected through the company VPN.",
+            "retrieved_contexts": [
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+                "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+                "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+                "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 684. Please try again in 2m28.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 798. Please try again in 4m7.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1265. Please try again in 10m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 1932. Please try again in 20m26.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "SEC001",
+            "category": "factual",
+            "question": "What are the four information classification categories used by Acme Corporation?",
+            "expected_answer": "The four information classification categories are Public, Internal, Confidential, and Restricted.",
+            "actual_answer": "The four information classification categories used by Acme Corporation are:\n\n1. Public\n2. Internal\n3. Confidential\n4. Restricted",
+            "retrieved_contexts": [
+                "3. Information Classification\nAll company information is classified into four categories to determine the appropriate level of\nprotection required.\nG\nPublic: Information that can be freely shared, such as marketing material.\nG\nInternal: Information f...",
+                "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo...",
+                "5. Learning and Development\nWe believe in continuous learning. Acme Corporation offers various training programs, certification\nreimbursements, and mentorship opportunities to help employees build their skills.\nInternal Training\nMonthly training sess...",
+                "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 688. Please try again in 2m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99488, Requested 759. Please try again in 3m33.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1249. Please try again in 10m35.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1938. Please try again in 20m31.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "SEC002",
+            "category": "factual",
+            "question": "What are the company's password requirements?",
+            "expected_answer": "Passwords must be at least 12 characters long, include uppercase and lowercase letters, numbers, and special characters, and must be changed every 90 days.",
+            "actual_answer": "All passwords must be at least 12 characters long, include a combination of uppercase, lowercase, numbers, and special characters, and must be changed every 90 days.",
+            "retrieved_contexts": [
+                "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+                "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+                "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 642. Please try again in 1m51.455999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 807. Please try again in 4m14.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1307. Please try again in 11m26.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1936. Please try again in 20m29.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "SEC003",
+            "category": "factual",
+            "question": "For which systems is multi-factor authentication mandatory?",
+            "expected_answer": "Multi-factor authentication is mandatory for accessing company email, VPN, and all critical business applications.",
+            "actual_answer": "Multi-factor authentication (MFA) is mandatory for accessing company email, VPN, and all critical business applications.",
+            "retrieved_contexts": [
+                "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+                "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+                "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+                "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 641. Please try again in 1m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 795. Please try again in 4m3.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1295. Please try again in 11m15.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1928. Please try again in 20m22.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "SEC004",
+            "category": "factual",
+            "question": "Can employees share their login credentials with IT support staff?",
+            "expected_answer": "No. Employees must never share their login credentials with anyone, including IT support staff or colleagues.",
+            "actual_answer": "No, employees must never share their login credentials with anyone, including IT support staff.",
+            "retrieved_contexts": [
+                "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+                "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+                "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 673. Please try again in 2m18.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 745. Please try again in 3m20.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1253. Please try again in 10m39.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99487, Requested 1927. Please try again in 20m21.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "SEC005",
+            "category": "factual",
+            "question": "What should an employee do after discovering a suspected security incident?",
+            "expected_answer": "The employee must report the incident to the IT Security team immediately, using security@acmecorp.com or the IT helpdesk within 1 hour of discovery. The employee should not investigate or resolve the incident independently and should preserve relevant evidence.",
+            "actual_answer": "After discovering a suspected security incident, an employee should: \n1. Report the incident to security@acmecorp.com or the IT helpdesk within 1 hour of discovery.\n2. Not attempt to investigate or resolve the incident independently.\n3. Preserve all evidence, such as suspicious emails, without forwarding them further.\n4. Cooperate fully with the IT Security team's investigation.",
+            "retrieved_contexts": [
+                "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th...",
+                "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company...",
+                "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "1. Purpose and Scope\nThis Information Security Policy establishes the guidelines that all employees, contractors, and third\nparties must follow to protect Acme Corporation's information assets.\nThis policy applies to all employees, contractors, vendo..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 739. Please try again in 3m14.399999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 810. Please try again in 4m15.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 1333. Please try again in 11m47.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 1943. Please try again in 20m34.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "SEC006",
+            "category": "factual",
+            "question": "Can employees install unauthorized software on company devices?",
+            "expected_answer": "No. Employees must not install unauthorized or unlicensed software on company devices. Software requests must go through the IT helpdesk.",
+            "actual_answer": "No, employees must not install unauthorized or unlicensed software on company devices. All software requests must go through the IT helpdesk.",
+            "retrieved_contexts": [
+                "5. Data Protection and Device Security\nDevice Encryption\nAll company-issued laptops and mobile devices must have full-disk encryption enabled and be\nprotected with a strong passcode or biometric lock.\nData Backup\nEmployees must store business-critica...",
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+                "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+                "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 680. Please try again in 2m23.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 799. Please try again in 4m6.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 1303. Please try again in 11m21.695999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 1972. Please try again in 20m59.712s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "TR001",
+            "category": "factual",
+            "question": "How far in advance should domestic business travel be requested?",
+            "expected_answer": "Domestic travel requests should be submitted at least 5 working days in advance.",
+            "actual_answer": "Domestic travel requests should be submitted at least 5 working days in advance.",
+            "retrieved_contexts": [
+                "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d...",
+                "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+                "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 672. Please try again in 2m16.512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 754. Please try again in 3m27.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 1293. Please try again in 11m13.056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 1911. Please try again in 20m7.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "TR002",
+            "category": "factual",
+            "question": "How far in advance should international business travel be requested?",
+            "expected_answer": "International travel requests require a minimum of 15 working days for visa processing.",
+            "actual_answer": "International travel requests require a minimum of 15 working days for visa processing.",
+            "retrieved_contexts": [
+                "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d...",
+                "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+                "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99486, Requested 671. Please try again in 2m15.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 743. Please try again in 3m16.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 1292. Please try again in 11m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 1910. Please try again in 20m5.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "TR003",
+            "category": "factual",
+            "question": "What class of flight can managers and below use for domestic travel?",
+            "expected_answer": "Managers and below are entitled to economy class for all domestic flights.",
+            "actual_answer": "For domestic travel, Managers and below are entitled to Economy class for all domestic flights.",
+            "retrieved_contexts": [
+                "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for...",
+                "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company...",
+                "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+                "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 640. Please try again in 1m48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 745. Please try again in 3m18.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 1273. Please try again in 10m54.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 1927. Please try again in 20m19.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "TR004",
+            "category": "factual",
+            "question": "Within how many days must employees submit travel expense claims?",
+            "expected_answer": "Travel-related expenses must be submitted through the Expense Management System within 15 days of completing the trip, along with original receipts.",
+            "actual_answer": "Within 15 days of completing the trip.",
+            "retrieved_contexts": [
+                "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+                "2. Travel Approval Process\nAll business travel must be approved in advance by the employee's reporting manager through the\nTravel Request Form on the internal portal.\nApproval Timeline\nDomestic travel requests should be submitted at least 5 working d...",
+                "4. Public Holidays\nAcme Corporation observes 12 public holidays each year, as per the list published annually by HR on\nthe internal portal.\nEmployees required to work on a public holiday due to business needs are eligible for compensatory\nleave, to b...",
+                "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 620. Please try again in 1m30.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 782. Please try again in 3m50.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 1269. Please try again in 10m51.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 1948. Please try again in 20m38.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "TR005",
+            "category": "factual",
+            "question": "Which travel expenses are not reimbursable?",
+            "expected_answer": "Non-reimbursable expenses include personal entertainment and mini-bar charges, traffic fines and penalties, expenses for family members accompanying the employee, and alcohol and tobacco purchases.",
+            "actual_answer": "The following expenses are non-reimbursable:\n\n1. Personal entertainment and mini-bar charges.\n2. Traffic fines and penalties.\n3. Expenses for family members accompanying the employee.\n4. Alcohol and tobacco purchases.",
+            "retrieved_contexts": [
+                "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+                "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+                "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for...",
+                "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 657. Please try again in 2m2.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 821. Please try again in 4m23.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 1275. Please try again in 10m55.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 1950. Please try again in 20m38.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "MULTI001",
+            "category": "multi_document",
+            "question": "If I am working remotely, what are my normal working hours and what security measure should I use when accessing internal company systems?",
+            "expected_answer": "Remote employees are normally expected to be available from 9:30 AM to 6:30 PM. When accessing internal systems or confidential data from a remote location, employees must connect through the company VPN.",
+            "actual_answer": "As a remote employee, your normal working hours are 9:30 AM to 6:30 PM, unless otherwise agreed with your manager. When accessing internal company systems, you must connect to the company VPN.",
+            "retrieved_contexts": [
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+                "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status...",
+                "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+                "ACME CORPORATION\nRemote Work Policy\nGuidelines for Remote and Hybrid Work Arrangements\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 668. Please try again in 2m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 781. Please try again in 3m48.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 1327. Please try again in 11m40.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 2001. Please try again in 21m23.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "MULTI002",
+            "category": "multi_document",
+            "question": "I am working remotely and need to take three consecutive days of sick leave. What documentation is required, and what security requirement applies when accessing internal systems remotely?",
+            "expected_answer": "A medical certificate is required because the sick leave exceeds 2 consecutive days. When accessing internal systems or confidential data remotely, the employee must use the company VPN.",
+            "actual_answer": "I couldn't find enough information in the provided documents.",
+            "retrieved_contexts": [
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+                "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 652. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 784. Please try again in 3m51.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 1346. Please try again in 11m57.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 2045. Please try again in 22m1.056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "MULTI003",
+            "category": "multi_document",
+            "question": "An employee is traveling on official business and discovers a phishing email. What travel protection applies and what should the employee do about the security incident?",
+            "expected_answer": "Employees traveling on official business are covered by the company's corporate travel insurance for the duration of the trip. The suspected phishing incident must be reported to the IT Security team immediately, through security@acmecorp.com or the IT helpdesk within 1 hour of discovery.",
+            "actual_answer": "The employee is covered under the company's corporate travel insurance policy for the duration of the trip. \n\nRegarding the security incident, the employee should report the phishing email to security@acmecorp.com or the IT helpdesk within 1 hour of discovery, preserve all evidence, and cooperate fully with the IT Security team's investigation, without attempting to investigate or resolve the incident independently.",
+            "retrieved_contexts": [
+                "6. Safety and Emergency Guidelines\nEmployees traveling for business purposes should register their itinerary with the Admin team for\nsafety tracking purposes.\nTravel Insurance\nAll employees traveling on official business are covered under the company...",
+                "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th...",
+                "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+                "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 707. Please try again in 2m45.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 852. Please try again in 4m50.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 1343. Please try again in 11m54.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 1966. Please try again in 20m52.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "MULTI004",
+            "category": "multi_document",
+            "question": "If an employee resigns with unused earned leave, what does the handbook say about final settlement and what does the leave policy say about earned leave carry forward?",
+            "expected_answer": "The full and final settlement, including leave encashment and other dues, is processed within 45 days of the last working day. Earned leave can be carried forward up to a maximum of 45 days.",
+            "actual_answer": "According to the employee_handbook.pdf, the full and final settlement, including pending salary, leave encashment, and other dues, is processed within 45 days of the last working day.\n\nAccording to the leave_policy.pdf, unused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the calendar year based on the employee's basic salary.",
+            "retrieved_contexts": [
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+                "ACME CORPORATION\nLeave Policy\nGuidelines on Leave Types, Accrual, and Application\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "1. Purpose and Scope\nThis Leave Policy outlines the types of leave available to employees of Acme Corporation, the\nprocess for applying for leave, and the rules governing leave accrual and usage.\nThis policy applies to all full-time employees of Acme..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 755. Please try again in 3m26.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 852. Please try again in 4m49.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 1305. Please try again in 11m20.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 1992. Please try again in 21m14.399999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "NEG001",
+            "category": "unanswerable",
+            "question": "What is the CEO's annual salary?",
+            "expected_answer": "This information is not provided in the available documents.",
+            "actual_answer": "I couldn't find enough information in the provided documents.",
+            "retrieved_contexts": [
+                "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c...",
+                "ACME CORPORATION\nEmployee Handbook\nA Guide to Working at Acme Corporation\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "Female employees are entitled to 26 weeks of paid maternity leave as per applicable statutory\nregulations, for up to two children.\nPaternity Leave\nMale employees are entitled to 2 weeks of paid paternity leave, to be availed within 3 months of the\nch...",
+                "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 664. Please try again in 2m7.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 784. Please try again in 3m50.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 1253. Please try again in 10m35.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 1901. Please try again in 19m55.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "NEG002",
+            "category": "unanswerable",
+            "question": "What is the Wi-Fi password of the Pune office?",
+            "expected_answer": "This information is not provided in the available documents.",
+            "actual_answer": "I couldn't find enough information in the provided documents.",
+            "retrieved_contexts": [
+                "4. Password and Access Management\nPassword Requirements\nAll passwords must be at least 12 characters long, include a combination of uppercase, lowercase,\nnumbers, and special characters, and must be changed every 90 days.\nMulti-Factor Authentication...",
+                "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+                "2. Physical Security\nAccess Control\nAccess to office premises is restricted through ID card-based entry systems. Employees must not\nshare their access cards with anyone else, including colleagues.\nVisitor Management\nAll visitors must be registered at...",
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 632. Please try again in 1m39.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 739. Please try again in 3m11.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 1244. Please try again in 10m28.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 1913. Please try again in 20m6.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "NEG003",
+            "category": "unanswerable",
+            "question": "Which programming language does Acme Corporation use for its backend systems?",
+            "expected_answer": "This information is not provided in the available documents.",
+            "actual_answer": "I couldn't find enough information in the provided documents.",
+            "retrieved_contexts": [
+                "1. Welcome to Acme Corporation\nWelcome to Acme Corporation! We are delighted to have you join our team. This Employee\nHandbook is designed to give you a clear understanding of our company culture, policies, and the\nmutual expectations between you and...",
+                "4. Workspace and Equipment\nHome Office Setup\nEmployees are responsible for setting up a quiet, ergonomic, and professional workspace suitable for\nconducting business activities.\nEquipment Provided\nAcme Corporation provides a laptop and, where require...",
+                "1. Purpose and Scope\nThis Remote Work Policy defines the guidelines for employees of Acme Corporation who work\nremotely, either on a full-time, hybrid, or occasional basis.\nThis policy applies to all employees whose role has been approved for remote...",
+                "5. Learning and Development\nWe believe in continuous learning. Acme Corporation offers various training programs, certification\nreimbursements, and mentorship opportunities to help employees build their skills.\nInternal Training\nMonthly training sess..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 634. Please try again in 1m41.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 784. Please try again in 3m50.688s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 1294. Please try again in 11m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 1936. Please try again in 20m25.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "PART001",
+            "category": "partial_answer",
+            "question": "What is the exact hotel reimbursement limit per night for Mumbai?",
+            "expected_answer": "The exact reimbursement amount is not provided in the available documents. The Travel Policy states that hotel limits depend on the employee's city category and grade.",
+            "actual_answer": "I couldn't find enough information in the provided documents.",
+            "retrieved_contexts": [
+                "4. Accommodation Guidelines\nHotel accommodation should be booked through the travel desk within the per-night limits specified\nfor the employee's city category and grade.\nCity Categories\nCities are classified as Category A (metro), Category B (tier 2...",
+                "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+                "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+                "4. Compensation and Benefits\nSalary Payments\nSalaries are credited to employees' bank accounts on the last working day of every month. Payslips\nare made available through the HR portal.\nHealth Insurance\nAll full-time employees are covered under the c..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 668. Please try again in 2m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 739. Please try again in 3m10.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 1309. Please try again in 11m23.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 1989. Please try again in 21m10.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "PART002",
+            "category": "partial_answer",
+            "question": "What is the exact daily allowance amount for employees traveling on business?",
+            "expected_answer": "The exact daily allowance amount is not provided in the available documents. The Travel Policy states that per diem rates are published on the HR portal.",
+            "actual_answer": "I couldn't find enough information in the provided documents.",
+            "retrieved_contexts": [
+                "5. Expense Claims and Reimbursement\nAll travel-related expenses must be submitted through the Expense Management System within 15\ndays of completing the trip, along with original receipts.\nDaily Allowance\nEmployees are entitled to a daily allowance (...",
+                "3. Mode of Travel and Entitlements\nDomestic Travel\nG\nExecutives and Senior Managers: Business class for flights over 5 hours, Economy otherwise.\nG\nManagers and below: Economy class for all domestic flights.\nG\nTrain travel: AC 2-tier or equivalent for...",
+                "1. Purpose and Scope\nThis Travel Policy defines the guidelines for booking, conducting, and claiming expenses for official\nbusiness travel undertaken by employees of Acme Corporation.\nThis policy applies to all domestic and international business tra...",
+                "ACME CORPORATION\nTravel Policy\nGuidelines for Official Business Travel\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department"
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 669. Please try again in 2m10.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 749. Please try again in 3m19.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 1310. Please try again in 11m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 1985. Please try again in 21m7.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "HI001",
+            "category": "multilingual",
+            "question": "कर्मचारियों को साल में कितनी casual leave मिलती है?",
+            "expected_answer": "Employees are entitled to 12 days of casual leave per calendar year.",
+            "actual_answer": "कर्मचारियों को साल में 12 दिन की कैजुअल लीव मिलती है, जो प्रति माह 1 दिन की दर से जमा होती है।",
+            "retrieved_contexts": [
+                "2. Types of Leave\nCasual Leave (CL)\nEmployees are entitled to 12 days of casual leave per calendar year, credited at the rate of 1 day per\nmonth. Casual leave can be used for personal matters and short-term needs.\nSick Leave (SL)\nEmployees are entitl...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+                "3. Leave Application Process\nAll leave requests must be submitted through the HR portal at least 2 working days in advance,\nexcept in cases of emergency or illness.\nApproval Workflow\nG\nLeave request is submitted by the employee via the HR portal.\nG\nT..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 720. Please try again in 2m54.528s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 781. Please try again in 3m47.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 1284. Please try again in 11m1.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 2019. Please try again in 21m36.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "HI002",
+            "category": "multilingual",
+            "question": "Remote employee ko company VPN kab use karna chahiye?",
+            "expected_answer": "Remote employees must use the company VPN whenever accessing internal systems or confidential data from a remote location.",
+            "actual_answer": "Remote employee ko company VPN use karna chahiye jab ve internal systems ya confidential data access kar rahe hon remote location se.",
+            "retrieved_contexts": [
+                "5. Data Security for Remote Work\nRemote employees must follow all guidelines outlined in the company's Information Security Policy\nwhile working outside office premises.\nVPN Usage\nEmployees must connect to the company VPN whenever accessing internal...",
+                "2. Eligibility and Approval\nEligibility Criteria\nRemote work eligibility depends on the nature of the role, business requirements, and the employee's\nperformance record. Not all roles are eligible for remote work.\nApproval Process\nEmployees must subm...",
+                "6. Performance and Review\nRemote employees are evaluated based on the same performance standards and goals as in-office\nemployees, with a focus on output and deliverables.\nRegular Check-ins\nManagers are expected to conduct regular one-on-one check-in...",
+                "3. Working Hours and Availability\nRemote employees are expected to be available and responsive during standard business hours,\n9:30 AM to 6:30 PM, unless otherwise agreed with their manager.\nCommunication Expectations\nEmployees must keep their status..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99482, Requested 685. Please try again in 2m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 800. Please try again in 4m2.784s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 1248. Please try again in 10m29.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 1978. Please try again in 21m0.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "MR001",
+            "category": "multilingual",
+            "question": "कर्मचाऱ्यांसाठी probation period किती दिवसांचा आहे?",
+            "expected_answer": "The probation period for new employees is 90 days from the date of joining.",
+            "actual_answer": "कर्मचाऱ्यांसाठी probation period ९० दिवसांचा आहे.",
+            "retrieved_contexts": [
+                "2. Employment Basics\nEmployment Categories\nEmployees at Acme Corporation are classified as Full-Time, Part-Time, or Contract/Temporary. Your\noffer letter specifies your employment category and applicable benefits.\nProbation Period\nNew employees serve...",
+                "5. Leave Encashment and Carry Forward\nUnused earned leave beyond the carry-forward limit of 45 days will be encashed at the end of the\ncalendar year based on the employee's basic salary.\nCasual leave and sick leave cannot be encashed and will lapse a...",
+                "6. Exit Process\nEmployees wishing to resign must submit a written resignation to their reporting manager and HR,\nwith a notice period as specified in their employment contract (typically 30 to 60 days).\nNotice Period\nDuring the notice period, employe...",
+                "required for client meetings and official events.\nDisciplinary Action\nViolations of the code of conduct may result in verbal warning, written warning, suspension, or\ntermination, depending on the severity of the violation."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 691. Please try again in 2m28.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 761. Please try again in 3m29.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 1270. Please try again in 10m48.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 1948. Please try again in 20m34.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        },
+        {
+            "id": "MR002",
+            "category": "multilingual",
+            "question": "Security incident सापडल्यानंतर किती वेळात report करणे आवश्यक आहे?",
+            "expected_answer": "A suspected security incident must be reported to the IT Security team immediately and through the designated email or IT helpdesk within 1 hour of discovery.",
+            "actual_answer": "सुरक्षा घटना सापडल्यानंतर ती 1 तासांच्या आत रिपोर्ट करणे आवश्यक आहे.",
+            "retrieved_contexts": [
+                "6. Incident Reporting\nAny suspected security incident, such as a lost device, phishing email, or unauthorized access\nattempt, must be reported to the IT Security team immediately.\nReporting Process\nG\nReport the incident to security@acmecorp.com or th...",
+                "required for client meetings and official events.\nDisciplinary Action\nViolations of the code of conduct may result in verbal warning, written warning, suspension, or\ntermination, depending on the severity of the violation.",
+                "ACME CORPORATION\nSecurity Policy\nInformation Security Guidelines for Employees\nEffective Date: January 1, 2026\nVersion 1.0 | Human Resources Department",
+                "6. Unauthorized Absence\nAny absence from work without prior approval or valid intimation will be treated as unauthorized leave\nand may be marked as Loss of Pay (LOP).\nRepeated instances of unauthorized absence may lead to disciplinary action as outli..."
+            ],
+            "faithfulness": null,
+            "answer_relevancy": null,
+            "context_precision": null,
+            "context_recall": null,
+            "reasons": {
+                "faithfulness": null,
+                "answer_relevancy": null,
+                "context_precision": null,
+                "context_recall": null
+            },
+            "errors": {
+                "faithfulness": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 663. Please try again in 2m4.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "answer_relevancy": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 810. Please try again in 4m11.423999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_precision": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 1282. Please try again in 10m59.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+                "context_recall": "InstructorRetryException: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjcvw2j4e6gvwdg8x7e2hhn1` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 1987. Please try again in 21m8.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+            }
+        }
+    ]
+}

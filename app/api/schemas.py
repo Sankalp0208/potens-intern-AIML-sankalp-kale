@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List
+from typing import List, Optional
 
 
 # =====================================================
@@ -66,3 +66,36 @@ class ContradictResponse(BaseModel):
 class HealthResponse(BaseModel):
     status: str
     documents_indexed: int
+
+
+# =====================================================
+# Evaluation Endpoint
+# =====================================================
+
+class EvaluationItem(BaseModel):
+    question: str = Field(..., min_length=1)
+    expected_sources: List[str] = Field(default_factory=list)
+    expected_answer: Optional[str] = None
+
+
+class EvaluationRequest(BaseModel):
+    dataset: List[EvaluationItem]
+    k: int = Field(default=4, ge=1)
+
+
+class EvaluationBreakdownItem(BaseModel):
+    question: str
+    precision_at_k: float
+    recall_at_k: float
+    mrr_at_k: float
+    answer_match: float
+    retrieved_sources: List[str]
+
+
+class EvaluationResponse(BaseModel):
+    num_items: int
+    avg_precision_at_k: float
+    avg_recall_at_k: float
+    avg_mrr_at_k: float
+    avg_answer_match: float
+    breakdown: List[EvaluationBreakdownItem]

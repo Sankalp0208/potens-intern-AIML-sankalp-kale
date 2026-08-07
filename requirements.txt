@@ -28,3 +28,6 @@ httpx==0.27.2
 tqdm==4.66.5
 
 python-multipart==0.0.12
+
+ragas
+datasets
