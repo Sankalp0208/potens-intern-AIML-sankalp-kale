@@ -2,6 +2,9 @@ import os
 
 import streamlit as st
 import requests
+import json
+from typing import Optional, List, Dict
+from pathlib import Path
 
 # ==========================================================
 # Configuration
@@ -135,12 +138,31 @@ with st.sidebar:
 # Tabs
 # ==========================================================
 
-tab1, tab2 = st.tabs(
+tab1, tab2, tab3 = st.tabs(
     [
         "💬 Ask Documents",
         "⚖️ Compare Documents",
+        "📈 RAGAS Evaluation",
     ]
 )
+
+
+def load_ragas_results(path: Optional[str] = None) -> Optional[Dict]:
+    """
+    Load RAGAS results JSON from the project (defaults to `evals/results/ragas_results.json`).
+    """
+    try:
+        if path is None:
+            base = Path(__file__).resolve().parents[1]
+            path = str(base / "evals" / "results" / "ragas_results.json")
+
+        with open(path, "r", encoding="utf-8") as fh:
+            return json.load(fh)
+
+    except FileNotFoundError:
+        return None
+    except Exception:
+        return None
 
 #part2
 
@@ -260,6 +282,156 @@ with tab1:
                 except Exception as e:
 
                     st.error(str(e))
+
+
+# ==========================================================
+# RAGAS Evaluation Tab
+# ==========================================================
+
+with tab3:
+
+    st.subheader("📈 RAGAS Evaluation Results")
+
+    data = load_ragas_results()
+
+    if data is None:
+
+        st.warning(
+            "RAGAS results file not found. Run the evaluation and place `ragas_results.json` in `evals/results/`."
+        )
+
+    else:
+
+        # Configuration
+        cfg = data.get("configuration", {})
+
+        st.markdown("**Configuration**")
+
+        st.write(cfg)
+
+        st.divider()
+
+        # Summary
+        summary = data.get("summary", {})
+
+        st.markdown("**Summary Metrics**")
+
+        metrics = summary.get("metrics", {})
+
+        if metrics:
+
+            cols = st.columns(len(metrics))
+
+            for i, (k, v) in enumerate(metrics.items()):
+
+                with cols[i]:
+
+                    try:
+
+                        st.metric(k.replace("_", " ").title(), f"{v:.3f}")
+
+                    except Exception:
+
+                        st.metric(k.replace("_", " ").title(), str(v))
+
+        else:
+
+            st.info("No metrics available in summary.")
+
+        st.divider()
+
+        # Successful / Failures
+        st.markdown("**Metric Evaluations**")
+
+        st.write({
+            "successful_metric_evaluations": summary.get("successful_metric_evaluations"),
+            "metric_failures": summary.get("metric_failures"),
+        })
+
+        st.divider()
+
+        # Per-question results table
+        st.markdown("**Per-question Results**")
+
+        results = data.get("results", [])
+
+        if not results:
+
+            st.info("No per-question results available.")
+
+        else:
+
+            # show a compact table using pandas if available
+            try:
+                import pandas as pd
+
+                rows = []
+
+                for r in results:
+
+                    rows.append(
+
+                        {
+
+                            "id": r.get("id"),
+
+                            "category": r.get("category"),
+
+                            "question": r.get("question"),
+
+                            "faithfulness": r.get("faithfulness"),
+
+                            "answer_relevancy": r.get("answer_relevancy"),
+
+                            "context_precision": r.get("context_precision"),
+
+                            "context_recall": r.get("context_recall"),
+
+                        }
+
+                    )
+
+                df = pd.DataFrame(rows)
+
+                st.dataframe(df)
+
+            except Exception:
+
+                # fallback: simple list view
+                for r in results:
+
+                    with st.expander(r.get("id", "")):
+
+                        st.write(r.get("question"))
+
+                        st.write({
+
+                            "faithfulness": r.get("faithfulness"),
+
+                            "answer_relevancy": r.get("answer_relevancy"),
+
+                            "context_precision": r.get("context_precision"),
+
+                            "context_recall": r.get("context_recall"),
+
+                        })
+
+        st.divider()
+
+        # Raw JSON download
+        st.markdown("**Download Raw Results**")
+
+        st.download_button(
+
+            "Download ragas_results.json",
+
+            data=json.dumps(data, indent=2),
+
+            file_name="ragas_results.json",
+
+            mime="application/json",
+
+        )
                     
 #part3
 # ==========================================================
